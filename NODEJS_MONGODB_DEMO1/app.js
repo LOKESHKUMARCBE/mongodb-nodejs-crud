@@ -15,13 +15,13 @@ async function connectDB() {
         const db = client.db(dbName);
 
         // access collection
-        const collection = db.collection("students");
+        const collection = db.collection("students1");
 
         // insert sample data
         const result = await collection.insertOne({
-            name: "RAJ",
-            age: 45,
-            course: "CSE"
+            name: "RAJKUMAR",
+            age: 51,
+            course: "it"
         });
 
         console.log("Document inserted:", result.insertedId);
