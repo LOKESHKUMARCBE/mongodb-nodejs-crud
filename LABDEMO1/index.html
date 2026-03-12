@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee Wage Calculator</title>
+</head>
+<body>
+
+<h2>Employee Wage Form</h2>
+
+<form method="POST" action="/calculate">
+    <label>Employee ID:</label><br>
+    <input type="text" name="empid" required><br><br>
+
+    <label>Employee Name:</label><br>
+    <input type="text" name="name" required><br><br>
+
+    <label>Total Hours Worked:</label><br>
+    <input type="number" name="hours" step="0.1" required><br><br>
+
+    <button type="submit">Calculate Wage</button>
+</form>
+
+</body>
+</html>

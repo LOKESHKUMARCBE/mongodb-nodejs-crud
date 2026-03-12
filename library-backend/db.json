@@ -1,0 +1,19 @@
+{
+  "books": [
+    {
+      "id": "1",
+      "title": "AI Fundamentals",
+      "author": "John Smith"
+    },
+    {
+      "id": "6125",
+      "title": "WEB PROGRAMMING",
+      "author": "RAMESH"
+    },
+    {
+      "id": "8fbc",
+      "title": "DBMS",
+      "author": "RAM"
+    }
+  ]
+}

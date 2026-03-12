@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HR Employee Management</title>
+</head>
+
+<body>
+
+<h2>Add Employee</h2>
+
+<form action="/add" method="POST">
+
+Name<br>
+<input type="text" name="name"><br><br>
+
+Department<br>
+<input type="text" name="department"><br><br>
+
+Designation<br>
+<input type="text" name="designation"><br><br>
+
+Salary<br>
+<input type="number" name="salary"><br><br>
+
+<button type="submit">Add Employee</button>
+
+</form>
+
+<hr>
+
+<h2>Update Salary</h2>
+
+<form action="/update" method="POST">
+
+Employee Name<br>
+<input type="text" name="name"><br><br>
+
+New Salary<br>
+<input type="number" name="salary"><br><br>
+
+<button type="submit">Update</button>
+
+</form>
+
+<hr>
+
+<h2>Delete Employee</h2>
+
+<form action="/delete" method="POST">
+
+Employee Name<br>
+<input type="text" name="name"><br><br>
+
+<button type="submit">Delete</button>
+
+</form>
+
+<hr>
+
+<a href="/view">View Employees</a>
+
+</body>
+</html>
